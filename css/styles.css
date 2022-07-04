@@ -211,15 +211,15 @@ label {
     position: relative;
     background-color: var(--main-bg-color);
    }
-   .portfolio h1{
-    color:var(--secondary-dark-text);
-    padding: 2rem; 
-   }
-   .portfolio img{
-     height: 15rem;
-     width: 100%;
-     margin: 1em;
-     
+.portfolio h1{
+color:var(--secondary-dark-text);
+padding: 2rem; 
+}
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+    object-fit: cover;
 }
 .transparent-background {
     background-color: var(--transparent-background);
